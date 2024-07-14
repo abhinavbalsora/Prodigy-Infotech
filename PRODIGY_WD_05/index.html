@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast </title>
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="card">
+        <span id="srch1" > 
+           <input id="input1" placeholder="Enter Your City " spellcheck="false">
+           <button id="btn1"><img src="search.png"></button> 
+        </span>
+
+        <div class="error">
+            <H3>Invalid City Name</H3>
+        </div>
+        
+    <div class="Weather_1">
+          <img id="Weathericon" src="clouds.png"> 
+          <h1 class="temp">0°C</h1>
+          <H2 class="city"></H2>
+    <div class="min_max">
+       <span id="minimun_temp">
+           <p class="min">Min:</p>
+           <p id="min_deg">0°C</p>
+        </span>
+
+    <span id="maximum_temp">
+         <p class="max">Max:</p>
+         <p id="max_deg">0°C</p>
+    </span>
+    </div>
+       
+    <div class="details">
+        <div id="humidity">
+           <img src="humidity.png" alt="humdity">
+           <h3 class="hum">0%</h3>
+           <h4 >humidity</h4> 
+    </div>
+
+    <div id="wind">
+          <img src="wind.png" alt="wind">
+          <h3 class="windV">0km/h</h3>
+          <h4>Wind Speed</p>
+    </div>
+</div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div>    
+<script src="app.js"></script>
+</body>
+
+</html>

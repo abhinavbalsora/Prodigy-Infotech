@@ -1,0 +1,107 @@
+body{
+    background-image: url("sunny.avif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.container{
+    height: 1000px;
+    width: 100%;
+    display: block;
+font-family: 'poppins',sans-serif;
+
+}
+
+.card{
+    text-align: center;
+    border: 2px transparent;
+    position: relative;
+    width: 30%;
+    height: 800px;
+    border-radius: 4%;
+    background: transparent;
+margin-left: 400px;
+filter: saturate(100%);
+background-color: black transparent;
+}
+
+.card img{
+    text-align: center;
+}
+
+ #input1{
+  border-radius: 450px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+height: 35px; 
+border: transparent;
+margin-right: 10px;
+}
+
+
+ #btn1{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+border: transparent; 
+margin-bottom: 20PX;
+}
+
+ #btn1 img{
+  width: 10px; ;
+  height:10px;
+    
+ } 
+
+.card H1{
+position: relative;
+margin-top: -20px;
+font-size: 45px;
+color: black;
+}
+
+.card h2{
+    color: rgb(14, 4, 4); 
+    margin-top: -30px;
+    font-weight: 300;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0,20px;
+margin-top: 50px;
+color: rgb(8, 5, 5);
+
+}
+
+#humidity{
+    margin-left: 20px;
+
+}
+
+#wind{
+  margin-right: 20px;
+
+}
+
+.min_max{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   margin: 35px 35px;
+   color: rgb(17, 14, 14);
+   font-weight: bolder;
+}
+
+.error{
+text-align: center;
+display: none;
+}
+
+.Weather_1{
+display: block;
+}
