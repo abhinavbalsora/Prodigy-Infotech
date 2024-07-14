@@ -1,0 +1,65 @@
+
+H1{
+    text-align: center;
+    color: brown;
+      
+}
+
+body{
+   background-color: lemonchiffon;
+  text-align: center;
+}
+
+
+#container{
+    height: 70vmin;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+     
+}
+#game{
+    height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.btn{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #d6d62f;
+}
+
+#reset-btn{
+    height: 5vmin;
+    width: 15vmin;
+    color: #4e2fd6;
+
+}
+
+#new-btn{
+  
+height: 5vmin;
+width: 15vmin;
+color: #4e2fd6;
+}
+
+p{
+   
+    font: 3em sans-serif;
+     font-style: oblique;}
+     
+     .hide{
+        display: none;
+
+     }
