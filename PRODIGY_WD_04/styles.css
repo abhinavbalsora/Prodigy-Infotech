@@ -1,0 +1,465 @@
+body{
+    background-image: url("89781.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navigation{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px,8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(20, 9, 10);
+    }
+
+    .navigation .logo{
+        width: 150px;
+        height: 80px;
+    
+    
+    }
+    
+    .navigation ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 40px;
+    
+    }
+    
+    .navigation ul li a{
+     
+        text-decoration: none;
+        color: #eee7e7;
+        font-size: 17px;
+        border: 35px solid transparent;
+        font-weight: bold;
+    text-transform: uppercase;
+    
+    
+    }
+    
+    .navigation ul li a:hover{ 
+        background: rgba(0,0,0,0.7);
+        border-radius: 6px;
+    }
+
+.mainpic {
+    width: 400px;
+    height: 400px;
+    margin-top: 130px;
+    margin-left: 50px;
+
+}
+
+.mainpic .mainimg{
+    width: 300px;
+    height: 300px;
+    image-resolution: 300DPI;
+   
+    
+}
+
+.content H1{
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.fa-linkedin{
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+}
+
+.fa-instagram{
+    font-size: 30px;
+    margin-left: 10px;
+    color: black;
+}
+
+/* skill section  */
+
+.skill-section{
+    height: 250px;
+    width: 100%;
+    background-color: #f3eff39f;
+  }
+  
+  .skills{
+  height: auto;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: lightcoral;
+  }
+  
+  .logo-box{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .logo-box img{
+    width: 80px;
+    height: 80px;
+    aspect-ratio: 3/2;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+  
+  .logo-box img:hover{
+    box-shadow: 5px 1px 10px 1px 
+    rgb(0, 191, 255);
+    transition: 0.5s;
+  }
+  
+  
+  
+  /*    EDUCATION-SECTION START    */ 
+  .heading{
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral
+  }
+
+
+  
+  .education-section{
+      width: auto;
+      background-color: black;
+      height: 400px;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .college{
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-right: 20px;
+      padding-left: 20px;
+      height: 300px;
+      width: 50%;
+      color: #fff;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      background-image: linear-gradient(45deg , #4F4557 , #19376D );
+  }
+  
+  .college:hover{
+      color: #000;
+      cursor: pointer;
+      box-shadow: 0px 0px 10px 0px 
+      #fff;
+      margin: 30px;
+      background-image: linear-gradient(190deg ,#19376D, #4F4557 );
+      transition: 1s;
+      
+  }
+  
+  .clg-img img{
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+      margin-right: 150px;
+  }
+
+  .skill-section{
+    background-color: beige;
+  }
+
+  .project-page{
+    height: auto;
+    width: 100%;
+    background-color: #092635;
+  }
+  
+  
+  .project-title{
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+  }
+  
+  .project-section{
+    width: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  
+  
+  
+  .project-1{
+    color: #000;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    background-image: linear-gradient(45deg , #4F4557 , #19376D );
+  }
+  
+  .project-1 a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .project-1 a:hover{
+    color: #000;
+  }
+  
+  .project-1:hover{
+      color: #fff;
+      cursor: pointer;
+      box-shadow: 0px 0px 10px 0px 
+      #fff;
+      margin-top: 30px;
+      transition: 1s;
+  }
+  
+  .project-2{
+  
+      color: #000;
+      margin-right: 20px;
+      margin-left: 20px;
+      padding-right: 20px;
+      padding-left: 20px;
+      height: 300px;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 50%;
+      background-image: linear-gradient(45deg , #4F4557 , #19376D );
+    }
+  
+  .project-2:hover{
+    color: #FFF;
+      cursor: pointer;
+      box-shadow: 0px 0px 10px 0px 
+      #fff;
+      margin-top: 30px;
+      transition: 1s;
+  }
+  
+  .project-2 a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .project-2 a:hover{
+    color: #000;
+  }
+  
+  .internship-title{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    color: #FFF;
+  }
+  
+  
+  .internship-project{
+    width: 100%;
+    background-color: #03001c;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .intern-project{
+     color: #000;
+      margin-right: 20px;
+      margin-left: 20px;
+      padding-right: 20px;
+      padding-left: 20px;
+      height: 380px;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 50%;
+      background-image: linear-gradient(45deg , #3E3232, #503C3C );
+  }
+  
+  .intern-project a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .intern-project:hover{
+      color: #FFF;
+      cursor: pointer;
+      box-shadow: 0px 0px 10px 0px 
+      #fff;
+      margin-top: 30px;
+      transition: 1s;
+  }
+  
+  
+  
+  /*         Experience section     */
+  
+  .expeience-sec{
+    height: auto;
+    width: 100%;
+    background-color: #000;
+  }
+  
+  .intern-exp{
+    color: #fff;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    background-image: linear-gradient(45deg , #4F4557 , #19376D );
+    gap: 10px;
+  }
+  
+  
+  .exp-title{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    color: #FFF;
+  }
+  
+  .exp-box{
+    
+    width: 100%;
+    background-color: #092635;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  /*       FOOTER-SECTION          */
+
+.footer-section{
+    height: 400px;
+    width: auto;
+    background: #000;
+  }
+  
+  .footer-ele{
+    height: 300px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .services{
+   height: 300px;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  
+  .contact{
+   height: 130px;
+   color: #FFF;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+  }
+  
+  .contact a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .contact a:hover{
+    color: rgb(0, 170, 255);
+    padding-left: 5px;
+    transition: 1s;
+  }
+  
+  .contact i{
+    font-size: 0.7rem;
+    text-transform: lowercase;
+  }
+  
+  .developer{
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  .developer i{
+    color: rgb(200, 13, 13);
+  }
+  
+  
