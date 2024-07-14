@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+background-color: cornflowerblue; 
+    
+  }
+  
+  .stopwatch {
+    text-align: center;
+    
+  }
+  
+  #display {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: beige;
+  }
+  
+  #controls {
+    margin-bottom: 10px;
+  }
+  
+  #controls button {
+    font-size: 1em;
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  
+  #laps {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+    color: aliceblue;
+  }
+  
